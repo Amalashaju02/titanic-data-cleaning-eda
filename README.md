@@ -2,7 +2,7 @@
 
 A simple Python project for exploring and cleaning the Titanic dataset using Pandas, Seaborn, and Matplotlib.
 
-## 📌 Features
+##  Features
 
 - Load and inspect the Titanic dataset
 - Analyze dataset structure and statistics
@@ -11,7 +11,7 @@ A simple Python project for exploring and cleaning the Titanic dataset using Pan
 - Replace missing Cabin values with `Unknown`
 - Visualize Age distribution across passenger classes
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas
@@ -19,13 +19,18 @@ A simple Python project for exploring and cleaning the Titanic dataset using Pan
 - Matplotlib
 - Jupyter Notebook
 
-## 📂 Files
+##  Files
 
 - `titanic.ipynb` — Data cleaning and EDA notebook
 - `titanic uncleaned.csv` — Original dataset
 
-## 🚀 Run
+##  Run
 
-bash
+```bash
 pip install pandas seaborn matplotlib jupyter
 jupyter notebook titanic.ipynb
+```
+
+## Scope
+
+This project focuses on data cleaning and exploratory data analysis. It does not include machine learning or survival prediction.
